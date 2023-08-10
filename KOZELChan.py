@@ -551,7 +551,7 @@ AGAR TERHINDAR DARI SPAM IP
 						pwv.append(frs+'123')
 						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')
-						pwv.append(kamu nanya)
+						pwv.append('kamu nanya')
 				else:
 					if len(frs)<3:
 						pwv.append(nmf)
@@ -560,7 +560,7 @@ AGAR TERHINDAR DARI SPAM IP
 						pwv.append(frs+'123')
 						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')	
-						pwv.append(kamu nanya)
+						pwv.append('kamu nanya')
 				if 'ya' in pwt:
 					for xpwn in pwn:
 						pwv.append(xpwn)
