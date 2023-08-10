@@ -54,6 +54,54 @@ for t in range(10000):
 	uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
 	ugen.append(uakuh)
 	
+	a='Mozilla/5.0 (iPhone; CPU'
+	b=random.choice(['8','8.1.0','9','10','11'])
+	c='SAMSUNG-SM-N910G Build/LRX22C)'
+	d='AppleWebKit/537.1 (KHTML, like Gecko)  Chrome/50.0.2226.339'
+	e=random.randrange(83,103)
+	f='0'
+	g=random.randrange(4200,4900)
+	h=random.randrange(40,150)
+	i='Mobile Safari/537.7'
+	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+	ugen.append(uakuh)
+	
+	a='Mozilla/5.0 (Linux; Android'
+	b=random.choice(['8','9','10','11','12'])
+	c='SM-N8000 Build/JZO54K)'
+	d='AppleWebKit/534.5 (KHTML, like Gecko)  Chrome/47.0.2892.259'
+	e=random.randrange(83,103)
+	f='0'
+	g=random.randrange(4200,4900)
+	h=random.randrange(40,150)
+	i='Mobile Safari/602.4'
+	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+	ugen.append(uakuh)
+	
+	a='Mozilla/5.0 (Linux; U; Android'
+	b=random.choice(['8','9','10','11','12'])
+	c='MOTOROLA MOTOG Build/KVT49L)'
+	d='AppleWebKit/601.8 (KHTML, like Gecko)  Chrome/47.0.2725.317'
+	e=random.randrange(83,103)
+	f='0'
+	g=random.randrange(4200,4900)
+	h=random.randrange(40,150)
+	i='Mobile Safari/601.4'
+	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+	ugen.append(uakuh)
+	
+	a='Mozilla/5.0 (Linux; Android'
+	b=random.choice(['8','9','10','11','12'])
+	c='LG-LU6500 Build/IMM76L)'
+	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.107'
+	e=random.randrange(83,103)
+	f='0'
+	g=random.randrange(4200,4900)
+	h=random.randrange(40,150)
+	i='Mobile Safari/537.36 OPR/29.0.1809.93516'
+	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+	usragent.append(uakuh)
+	
 	###---------------[USER AGENT 2]---------------###
 P = '\x1b[1;97m'
 M = '\x1b[1;91m'
@@ -109,14 +157,9 @@ def banner():
 def banlog():
 	cetak(panel(f'''\t{h}[bold green]
                                                                               
- ██████╗██████╗  █████╗  ██████╗██╗  ██╗    ███████╗██████╗ 
-██╔════╝██╔══██╗██╔══██╗██╔════╝██║ ██╔╝    ██╔════╝██╔══██╗
-██║     ██████╔╝███████║██║     █████╔╝     █████╗  ██████╔╝
-██║     ██╔══██╗██╔══██║██║     ██╔═██╗     ██╔══╝  ██╔══██╗
-╚██████╗██║  ██║██║  ██║╚██████╗██║  ██╗    ██║     ██████╔╝
- ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝    ╚═╝     ╚═════╝ 
+KOZEL GANZ 
   
-   {m}Author:SC TOLOL GAUSAH DIPAKE                                             ''',width=90,title=f"[bold white]• [/][bold green]𝐁𝐀𝐍𝐍𝐄𝐑[/][bold white] •[/]",style=f"bold white"))
+   {m}SC TOLOL GAUSAH DIPAKE                                             ''',width=90,title=f"[bold white]• [/][bold green]𝐁𝐀𝐍𝐍𝐄𝐑[/][bold white] •[/]",style=f"bold white"))
 #--------------------[ BAGIAN-MASUK ]--------------#
 def brayenlogin():
 	try:
