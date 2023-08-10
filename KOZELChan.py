@@ -29,7 +29,6 @@ proxsi=open('socksku.txt','r').read().splitlines()
 
 ###----------[ USER AGENT ]----------###
 for agenku in range(10000):
-for agenku in range(10000):
 	a='Mozilla/5.0 (Linux; Android'
 	b=random.choice(['10','11','12'])
 	c='Redmi K30 Pro Zoom Edition Build/SKQ1.211006.001; wv)'
