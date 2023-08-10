@@ -31,40 +31,76 @@ proxsi=open('socksku.txt','r').read().splitlines()
 for agenku in range(10000):
 	a='Mozilla/5.0 (Linux; Android'
 	b=random.choice(['10','11','12'])
-	c='Build/TP1A.220624.014; wv)'
-	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.116'
+	c='Redmi K30 Pro Zoom Edition Build/SKQ1.211006.001; wv)'
+	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.5790.163'
 	e=random.randrange(83,103)
 	f='0'
 	g=random.randrange(4200,4900)
 	h=random.randrange(40,150)
-	i='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/410.0.0.26.115;]]'
+	i='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/426.0.0.26.50;]'
 	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
 	ugen.append(uakuh)
 	
 for t in range(10000):
 	a='Mozilla/5.0 (Linux; Android'
 	b=random.choice(['6.0.1','7.1.1','8.1.0'])
-	c='PGEM10 Build/TP1A.220905.001; wv)'
-	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.5790.138'
+	c='en-gb; Redmi Note 11 Build/TKQ1.221114.001)'
+	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127'
 	e=random.randrange(83,103)
 	f='0'
 	g=random.randrange(4200,4900)
 	h=random.randrange(40,150)
-	i='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/425.0.0.22.49;]'
+	i='Mobile Safari/537.36 XiaoMi/MiuiBrowser/13.25.2.2-gn'
 	uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
 	ugen.append(uakuh)
 	
-	a='Mozilla/5.0 (Linux; Android'
+	a='Mozilla/5.0 (iPhone; CPU'
 	b=random.choice(['8','8.1.0','9','10','11'])
-	c='Redmi K20 Pro Premium Edition Build/RKQ1.200826.002; wv)'
-	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/105.0.5195.136'
+	c='iPhone OS 17_0 like Mac OS X)'
+	d='AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/21A5291h'
 	e=random.randrange(83,103)
 	f='0'
 	g=random.randrange(4200,4900)
 	h=random.randrange(40,150)
-	i='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/384.1.0.29.111;]'
+	i='[FBAN/FBIOS;FBDV/iPhone14,3;FBMD/iPhone;FBSN/iOS;FBSV/17.0;FBSS/3;FBID/phone;FBLC/en_Qaau_US;FBOP/5]'
 	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
 	ugen.append(uakuh)
+	
+	a='Mozilla/5.0 (iPhone; CPU'
+	b=random.choice(['8','9','10','11','12'])
+	c='iPhone OS 17_0 like Mac OS X)'
+	d='AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/21A5277j'
+	e=random.randrange(83,103)
+	f='0'
+	g=random.randrange(4200,4900)
+	h=random.randrange(40,150)
+	i='[FBAN/FBIOS;FBDV/iPhone15,3;FBMD/iPhone;FBSN/iOS;FBSV/17.0;FBSS/3;FBID/phone;FBLC/de_DE;FBOP/5]'
+	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+	ugen.append(uakuh)
+	
+	a='Mozilla/5.0 (Linux; Android'
+	b=random.choice(['8','9','10','11','12'])
+	c='VS876 Build/KOT49I.VS87611B)'
+	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133'
+	e=random.randrange(83,103)
+	f='0'
+	g=random.randrange(4200,4900)
+	h=random.randrange(40,150)
+	i='Mobile Safari/537.36'
+	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+	ugen.append(uakuh)
+	
+	a='Mozilla/5.0 (Linux; Android'
+	b=random.choice(['8','9','10','11','12'])
+	c='LG-LU6500 Build/IMM76L)'
+	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.107'
+	e=random.randrange(83,103)
+	f='0'
+	g=random.randrange(4200,4900)
+	h=random.randrange(40,150)
+	i='Mobile Safari/537.36 OPR/29.0.1809.93516'
+	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+	usragent.append(uakuh)
 	
 	###---------------[USER AGENT 2]---------------###
 P = '\x1b[1;97m'
@@ -128,7 +164,7 @@ def banlog():
 ╚██████╗██║  ██║██║  ██║╚██████╗██║  ██╗    ██║     ██████╔╝
  ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝    ╚═╝     ╚═════╝ 
   
-   {m}Author:𝐊𝐄𝐏𝐎 𝐀𝐌𝐀𝐓                                             ''',width=90,title=f"[bold white]• [/][bold green]𝐁𝐀𝐍𝐍𝐄𝐑[/][bold white] •[/]",style=f"bold white"))
+   {m}Author:SC TOLOL GAUSAH DIPAKE                                             ''',width=90,title=f"[bold white]• [/][bold green]𝐁𝐀𝐍𝐍𝐄𝐑[/][bold white] •[/]",style=f"bold white"))
 #--------------------[ BAGIAN-MASUK ]--------------#
 def brayenlogin():
 	try:
