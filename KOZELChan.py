@@ -56,37 +56,37 @@ for t in range(10000):
 	
 	a='Mozilla/5.0 (iPhone; CPU'
 	b=random.choice(['8','8.1.0','9','10','11'])
-	c='iPhone OS 17_0 like Mac OS X)'
-	d='AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/21A5291h'
+	c='SAMSUNG-SM-N910G Build/LRX22C)'
+	d='AppleWebKit/537.1 (KHTML, like Gecko)  Chrome/50.0.2226.339'
 	e=random.randrange(83,103)
 	f='0'
 	g=random.randrange(4200,4900)
 	h=random.randrange(40,150)
-	i='[FBAN/FBIOS;FBDV/iPhone14,3;FBMD/iPhone;FBSN/iOS;FBSV/17.0;FBSS/3;FBID/phone;FBLC/en_Qaau_US;FBOP/5]'
-	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
-	ugen.append(uakuh)
-	
-	a='Mozilla/5.0 (iPhone; CPU'
-	b=random.choice(['8','9','10','11','12'])
-	c='iPhone OS 17_0 like Mac OS X)'
-	d='AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/21A5277j'
-	e=random.randrange(83,103)
-	f='0'
-	g=random.randrange(4200,4900)
-	h=random.randrange(40,150)
-	i='[FBAN/FBIOS;FBDV/iPhone15,3;FBMD/iPhone;FBSN/iOS;FBSV/17.0;FBSS/3;FBID/phone;FBLC/de_DE;FBOP/5]'
+	i='Mobile Safari/537.7'
 	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
 	ugen.append(uakuh)
 	
 	a='Mozilla/5.0 (Linux; Android'
 	b=random.choice(['8','9','10','11','12'])
-	c='VS876 Build/KOT49I.VS87611B)'
-	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133'
+	c='SM-N8000 Build/JZO54K)'
+	d='AppleWebKit/534.5 (KHTML, like Gecko)  Chrome/47.0.2892.259'
 	e=random.randrange(83,103)
 	f='0'
 	g=random.randrange(4200,4900)
 	h=random.randrange(40,150)
-	i='Mobile Safari/537.36'
+	i='Mobile Safari/602.4'
+	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+	ugen.append(uakuh)
+	
+	a='Mozilla/5.0 (Linux; U; Android'
+	b=random.choice(['8','9','10','11','12'])
+	c='MOTOROLA MOTOG Build/KVT49L)'
+	d='AppleWebKit/601.8 (KHTML, like Gecko)  Chrome/47.0.2725.317'
+	e=random.randrange(83,103)
+	f='0'
+	g=random.randrange(4200,4900)
+	h=random.randrange(40,150)
+	i='Mobile Safari/601.4'
 	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
 	ugen.append(uakuh)
 	
@@ -563,12 +563,7 @@ AGAR TERHINDAR DARI SPAM IP
 						pwv.append(nmf)
 						pwv.append(frs+'123')
 						pwv.append(frs+'1234')
-						pwv.append(frs+'12345')
-						pwv.append(frs+'01')
-						pwv.append(frs+'02')
-						pwv.append(frs+'12')
-						pwv.append(frs+'321')
-						pwv.append(frs+'05')
+						pwv.append(frs+'12345')	
 				if 'ya' in pwt:
 					for xpwn in pwn:
 						pwv.append(xpwn)
