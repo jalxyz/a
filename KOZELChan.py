@@ -30,7 +30,7 @@ proxsi=open('socksku.txt','r').read().splitlines()
 ###----------[ USER AGENT ]----------###
 for agenku in range(10000):
 	a='Mozilla/5.0 (Linux; Android'
-	b=random.choice(['5','6','7','8','9','10','11','12','13'])
+	b=random.choice(['10','11','12'])
 	c='Build/TP1A.220624.014; wv)'
 	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.116'
 	e=random.randrange(83,103)
@@ -43,7 +43,7 @@ for agenku in range(10000):
 	
 for t in range(10000):
 	a='Mozilla/5.0 (Linux; Android'
-	b=random.choice(['5','6','7','8','9','10','11','12','13'])
+	b=random.choice(['6.0.1','7.1.1','8.1.0'])
 	c='PGEM10 Build/TP1A.220905.001; wv)'
 	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.5790.138'
 	e=random.randrange(83,103)
@@ -55,7 +55,7 @@ for t in range(10000):
 	ugen.append(uakuh)
 	
 	a='Mozilla/5.0 (Linux; Android'
-	b=random.choice(['5','6','7','8','9','10','11','12','13'])
+	b=random.choice(['8','8.1.0','9','10','11'])
 	c='Redmi K20 Pro Premium Edition Build/RKQ1.200826.002; wv)'
 	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/105.0.5195.136'
 	e=random.randrange(83,103)
