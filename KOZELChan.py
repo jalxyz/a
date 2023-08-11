@@ -549,20 +549,24 @@ AGAR TERHINDAR DARI SPAM IP
 						pass
 					else:
 						pwv.append(frs+'123')
-						pwv.append('anjing')
+						pwv.append(frs+'1234')
+						pwv.append(frs+'12345')
+						pwv.append('persib')
+						pwv.append('bandung')
 						pwv.append('kontol')
-						pwv.append('memek123')
-						pwv.append('kamu nanya')
+						pwv.append('anjing')	
 				else:
 					if len(frs)<3:
 						pwv.append(nmf)
 					else:
 						pwv.append(nmf)
 						pwv.append(frs+'123')
-						pwv.append('anjing')
-						pwv.append('kontol')	
-						pwv.append('memek123')
-						pwv.append('kamu nanya')
+						pwv.append(frs+'1234')
+						pwv.append(frs+'12345')	
+						pwv.append('persib')	
+						pwv.append('bandung')
+						pwv.append('kontol')
+						pwv.append('anjing')	
 				if 'ya' in pwt:
 					for xpwn in pwn:
 						pwv.append(xpwn)
