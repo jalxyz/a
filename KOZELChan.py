@@ -551,10 +551,7 @@ AGAR TERHINDAR DARI SPAM IP
 						pwv.append(frs+'123')
 						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')
-						pwv.append('persib')
-						pwv.append('bandung')
-						pwv.append('kontol')
-						pwv.append('anjing')	
+						pwv.append('cililin')
 				else:
 					if len(frs)<3:
 						pwv.append(nmf)
@@ -562,11 +559,8 @@ AGAR TERHINDAR DARI SPAM IP
 						pwv.append(nmf)
 						pwv.append(frs+'123')
 						pwv.append(frs+'1234')
-						pwv.append(frs+'12345')	
-						pwv.append('persib')	
-						pwv.append('bandung')
-						pwv.append('kontol')
-						pwv.append('anjing')	
+						pwv.append(frs+'12345')
+						pwv.append('cililin')
 				if 'ya' in pwt:
 					for xpwn in pwn:
 						pwv.append(xpwn)
