@@ -549,7 +549,6 @@ AGAR TERHINDAR DARI SPAM IP
 						pass
 					else:
 						pwv.append(frs+'123')
-						pwv.append('frs+'1234')
 						pwv.append('frs+'12345')
 						pwv.append('frs+'123456')
 						pwv.append('frs+'gaming')
@@ -569,7 +568,6 @@ AGAR TERHINDAR DARI SPAM IP
 					else:
 						pwv.append(nmf)
 						pwv.append(frs+'123')
-						pwv.append('frs+'1234')
 						pwv.append('frs+'12345')
 						pwv.append('frs+'123456')
 						pwv.append('frs+'gaming')
