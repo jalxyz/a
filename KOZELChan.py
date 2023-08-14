@@ -549,7 +549,6 @@ AGAR TERHINDAR DARI SPAM IP
 						pass
 					else:
 						pwv.append(frs+'123')
-						pwv.append(Frs+'123')
 						pwv.append('cikenung')
 						pwv.append('cikenung123')
 						pwv.append('cikenung1234')
@@ -561,7 +560,6 @@ AGAR TERHINDAR DARI SPAM IP
 					else:
 						pwv.append(nmf)
 						pwv.append(frs+'123')
-						pwv.append(Frs+'123')
 						pwv.append('cikenung')
 						pwv.append('cikenung123')
 						pwv.append('cikenung1234')
