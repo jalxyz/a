@@ -548,7 +548,7 @@ AGAR TERHINDAR DARI SPAM IP
 					if len(frs)<3:
 						pass
 					else:
-						pwv.append(frs+123)
+						pwv.append(frs+'123')
 						pwv.append(Frs+'123')
 						pwv.append('cikenung')
 						pwv.append('cikenung123')
