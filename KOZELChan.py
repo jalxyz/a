@@ -548,33 +548,25 @@ AGAR TERHINDAR DARI SPAM IP
 					if len(frs)<3:
 						pass
 					else:
-						pwv.append(frs+'123')
-						pwv.append('cililin')
-						pwv.append('Cililin')
-						pwv.append('sayang')
-						pwv.append('Sayang')
-						pwv.append('sayang123')
-						pwv.append('Sayang123')
-						pwv.append('sayangku')
-						pwv.append('Sayangku')
-						pwv.append('sayangku123')
-						pwv.append('Sayangku123')
+						pwv.append(frs+123)
+						pwv.append(Frs+'123')
+						pwv.append('cikenung')
+						pwv.append('cikenung123')
+						pwv.append('cikenung1234')
+						pwv.append('cikenung12345')
+						pwv.append('cikenung123456')
 				else:
 					if len(frs)<3:
 						pwv.append(nmf)
 					else:
 						pwv.append(nmf)
 						pwv.append(frs+'123')
-						pwv.append('cililin')
-						pwv.append('Cililin')
-						pwv.append('sayang')
-						pwv.append('Sayang')
-						pwv.append('sayang123')
-						pwv.append('Sayang123')
-						pwv.append('sayangku')
-						pwv.append('Sayangku')
-						pwv.append('sayangku123')
-						pwv.append('Sayangku123')
+						pwv.append(Frs+'123')
+						pwv.append('cikenung')
+						pwv.append('cikenung123')
+						pwv.append('cikenung1234')
+						pwv.append('cikenung12345')
+						pwv.append('cikenung123456')
 				if 'ya' in pwt:
 					for xpwn in pwn:
 						pwv.append(xpwn)
