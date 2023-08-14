@@ -550,8 +550,9 @@ AGAR TERHINDAR DARI SPAM IP
 					else:
 						pwv.append(frs+'123')
 						pwv.append('cililin')
-						pwv.append('cililin123')
-						pwv.append('bandung')
+						pwv.append('persib1933')
+						pwv.append('persib123')
+						pwv.append('persib bandung')
 						pwv.append('bandung123')
 				else:
 					if len(frs)<3:
@@ -560,8 +561,9 @@ AGAR TERHINDAR DARI SPAM IP
 						pwv.append(nmf)
 						pwv.append(frs+'123')
 						pwv.append('cililin')
-						pwv.append('cililin123')
-						pwv.append('bandung')
+						pwv.append('persib1933')
+						pwv.append('persib123')
+						pwv.append('persib bandung')
 						pwv.append('bandung123')
 				if 'ya' in pwt:
 					for xpwn in pwn:
