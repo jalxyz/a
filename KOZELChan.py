@@ -549,30 +549,23 @@ AGAR TERHINDAR DARI SPAM IP
 						pass
 					else:
 						pwv.append(frs+'123')
-						pwv.append(frs+'1234')
-						pwv.append(frs+'12345')
-						pwv.append(frs+'123456')
-						pwv.append('bandung')
-						pwv.append('bandung123')
-						pwv.append('persib1933')
-						pwv.append('persibbandung')
-						pwv.append('persib123')
+						pwv.append(frs+'123')
+						pwv.append(frs+'321')
 						pwv.append('cililin')
+						pwv.append('bismillah')
+						pwv.append('cipongkor')
+						pwv.append('bandung')
 				else:
 					if len(frs)<3:
 						pwv.append(nmf)
 					else:
 						pwv.append(nmf)
 						pwv.append(frs+'123')
-						pwv.append(frs+'1234')
-						pwv.append(frs+'12345')
-						pwv.append(frs+'123456')
-						pwv.append('bandung')
-						pwv.append('bandung123')
-						pwv.append('persib1933')
-						pwv.append('persibbandung')
-						pwv.append('persib123')
+						pwv.append(frs+'321')
 						pwv.append('cililin')
+						pwv.append('bismillah')
+						pwv.append('cipongkor')
+						pwv.append('bandung')
 				if 'ya' in pwt:
 					for xpwn in pwn:
 						pwv.append(xpwn)
