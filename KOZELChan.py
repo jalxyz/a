@@ -548,32 +548,30 @@ AGAR TERHINDAR DARI SPAM IP
 					if len(frs)<3:
 						pass
 					else:
-						pwv.append(frs+'12')
+						pwv.append(frs)
 						pwv.append(frs+'123')
 						pwv.append(frs+'1234')
-						pwv.append(frs+'12345')
-						pwv.append(frs+'123456')
-						pwv.append(nmf+'12')
-						pwv.append(nmf+'123')
-						pwv.append(nmf+'1234')
-						pwv.append(nmf+'12345')
-						pwv.append(nmf+'123456')
+						pwv.append('bandung123')
+						pwv.append('bandung1234')
+						pwv.append('persib123)
+						pwv.append('persib1234')
+						pwv.append('persib1933')
+						pwv.append('persib bandung)
+						pwv.append('persibbandung')
 				else:
 					if len(frs)<3:
 						pwv.append(nmf)
 					else:
 						pwv.append(frs)
-						pwv.append(frs+'12')
 						pwv.append(frs+'123')
 						pwv.append(frs+'1234')
-						pwv.append(frs+'12345')
-						pwv.append(frs+'123456')
-						pwv.append(nmf)
-						pwv.append(nmf+'12')
-						pwv.append(nmf+'123')
-						pwv.append(nmf+'1234')
-						pwv.append(nmf+'12345')
-						pwv.append(nmf+'123456')
+						pwv.append('bandung123')
+						pwv.append('bandung1234')
+						pwv.append('persib123)
+						pwv.append('persib1234')
+						pwv.append('persib1933')
+						pwv.append('persib bandung)
+						pwv.append('persibbandung')
 				if 'ya' in pwt:
 					for xpwn in pwn:
 						pwv.append(xpwn)
