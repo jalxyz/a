@@ -553,10 +553,10 @@ AGAR TERHINDAR DARI SPAM IP
 						pwv.append(frs+'1234')
 						pwv.append('bandung123')
 						pwv.append('bandung1234')
-						pwv.append('persib123)
+						pwv.append('persib123')
 						pwv.append('persib1234')
 						pwv.append('persib1933')
-						pwv.append('persib bandung)
+						pwv.append('persib bandung')
 						pwv.append('persibbandung')
 				else:
 					if len(frs)<3:
@@ -567,10 +567,10 @@ AGAR TERHINDAR DARI SPAM IP
 						pwv.append(frs+'1234')
 						pwv.append('bandung123')
 						pwv.append('bandung1234')
-						pwv.append('persib123)
+						pwv.append('persib123')
 						pwv.append('persib1234')
 						pwv.append('persib1933')
-						pwv.append('persib bandung)
+						pwv.append('persib bandung')
 						pwv.append('persibbandung')
 				if 'ya' in pwt:
 					for xpwn in pwn:
