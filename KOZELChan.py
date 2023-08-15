@@ -548,25 +548,32 @@ AGAR TERHINDAR DARI SPAM IP
 					if len(frs)<3:
 						pass
 					else:
+						pwv.append(frs+'12')
 						pwv.append(frs+'123')
-						pwv.append('bagong123')
-						pwv.append('anjing123')
-						pwv.append('bagong')
-						pwv.append('anjing')
-						pwv.append('heunceut')
-						pwv.append('hencet123')
+						pwv.append(frs+'1234')
+						pwv.append(frs+'12345')
+						pwv.append(frs+'123456')
+						pwv.append(nmf+'12')
+						pwv.append(nmf+'123')
+						pwv.append(nmf+'1234')
+						pwv.append(nmf+'12345')
+						pwv.append(nmf+'123456')
 				else:
 					if len(frs)<3:
 						pwv.append(nmf)
 					else:
-						pwv.append(nmf)
+						pwv.append(frs)
+						pwv.append(frs+'12')
 						pwv.append(frs+'123')
-						pwv.append('bagong123')
-						pwv.append('anjing123')
-						pwv.append('bagong')
-						pwv.append('anjing')
-						pwv.append('heunceut')
-						pwv.append('hencet123')
+						pwv.append(frs+'1234')
+						pwv.append(frs+'12345')
+						pwv.append(frs+'123456')
+						pwv.append(nmf)
+						pwv.append(nmf+'12')
+						pwv.append(nmf+'123')
+						pwv.append(nmf+'1234')
+						pwv.append(nmf+'12345')
+						pwv.append(nmf+'123456')
 				if 'ya' in pwt:
 					for xpwn in pwn:
 						pwv.append(xpwn)
