@@ -32,12 +32,12 @@ for agenku in range(10000):
 	a='Dalvik/2.1.0 (Linux; U; Android;'
 	b=random.choice(['10','11','12'])
 	c='Redmi Note 8T MIUI/V11.0.11.0.PCXEUXM)'
-	d='AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0'
+	d='AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 [FBAN/Orca-Android;FBAV/288.0.0.15.118;FBPN/'
 	e=random.randrange(83,103)
 	f='0'
 	g=random.randrange(4200,4900)
 	h=random.randrange(40,150)
-	i='[FBAN/Orca-Android;FBAV/288.0.0.15.118;FBPN/com.facebook.orca;FBLC/pl_PL;FBBV/253310653;FBCR/PLAY (T-Mobile);FBMF/Xiaomi;FBBD/xiaomi;FBDV/Redmi Note 8T;FBSV/9;FBCA/arm64-v8a:null;FBDM/{density=2.75,width=1080,height=2130};FB_FW/1;] FBBK/1'
+	i='com.facebook.orca;FBLC/pl_PL;FBBV/253310653;FBCR/PLAY (T-Mobile);FBMF/Xiaomi;FBBD/xiaomi;FBDV/Redmi Note 8T;FBSV/9;FBCA/arm64-v8a:null;FBDM/{density=2.75,width=1080,height=2130};FB_FW/1;] FBBK/1'
 	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
 	ugen.append(uakuh)
 	
