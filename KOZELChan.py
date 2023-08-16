@@ -29,15 +29,15 @@ proxsi=open('socksku.txt','r').read().splitlines()
 
 ###----------[ USER AGENT ]----------###
 for agenku in range(10000):
-	a='Dalvik/2.1.0 (Linux; U; Android;'
+	a='Mozilla/5.0 (Linux; Android;'
 	b=random.choice(['10','11','12'])
-	c='Redmi Note 8T MIUI/V11.0.11.0.PCXEUXM)'
-	d='AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 [FBAN/Orca-Android;FBAV/288.0.0.15.118;FBPN/'
+	c='22101320G Build/TKQ1)'
+	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
 	e=random.randrange(83,103)
 	f='0'
 	g=random.randrange(4200,4900)
 	h=random.randrange(40,150)
-	i='com.facebook.orca;FBLC/pl_PL;FBBV/253310653;FBCR/PLAY (T-Mobile);FBMF/Xiaomi;FBBD/xiaomi;FBDV/Redmi Note 8T;FBSV/9;FBCA/arm64-v8a:null;FBDM/{density=2.75,width=1080,height=2130};FB_FW/1;] FBBK/1'
+	i='Mobile Safari/537.36'
 	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
 	ugen.append(uakuh)
 	
@@ -80,7 +80,7 @@ for t in range(10000):
 	
 	a='Mozilla/5.0 (Linux; Android;'
 	b=random.choice(['8','9','10','11','12'])
-	c='A1601 Build/LMY47I)'
+	c='V2132 Build/TP1A)'
 	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
 	e=random.randrange(83,103)
 	f='0'
@@ -92,7 +92,7 @@ for t in range(10000):
 	
 	a='Mozilla/5.0 (Linux; Android;'
 	b=random.choice(['8','9','10','11','12'])
-	c='Lenovo YT-X705F)'
+	c='V2166 Build/TP1A)'
 	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
 	e=random.randrange(83,103)
 	f='0'
@@ -548,7 +548,7 @@ AGAR TERHINDAR DARI SPAM IP
 					if len(frs)<3:
 						pass
 					else:
-						pwv.append(frs+'1933')
+						pwv.append('sayang')
 						pwv.append('bandung123')
 						pwv.append('bandung123456')
 						pwv.append('maung bandung')
@@ -561,7 +561,7 @@ AGAR TERHINDAR DARI SPAM IP
 					if len(frs)<3:
 						pwv.append(nmf)
 					else:
-						pwv.append(frs+'1933')
+						pwv.append('sayang')
 						pwv.append('bandung123')
 						pwv.append('bandung123456')
 						pwv.append('maung bandung')
