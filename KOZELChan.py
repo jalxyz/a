@@ -548,38 +548,28 @@ AGAR TERHINDAR DARI SPAM IP
 					if len(frs)<3:
 						pass
 					else:
-						pwv.append(frs)
-						pwv.append(frs+'123')
-						pwv.append(frs+'1234')
+						pwv.append(frs+'1933')
 						pwv.append('bandung123')
+						pwv.append('bandung123456')
 						pwv.append('maung bandung')
 						pwv.append('maungbandung')
 						pwv.append('persib123')
 						pwv.append('persib1933')
 						pwv.append('persib bandung')
-						pwv.append('persib bandung1933')
-						pwv.append('persib bandung123')
 						pwv.append('persibbandung')
-						pwv.append('persibbandung1933')
-						pwv.append('persibbandung123')
 				else:
 					if len(frs)<3:
 						pwv.append(nmf)
 					else:
-						pwv.append(frs)
-						pwv.append(frs+'123')
-						pwv.append(frs+'1234')
+						pwv.append(frs+'1933')
 						pwv.append('bandung123')
+						pwv.append('bandung123456')
 						pwv.append('maung bandung')
 						pwv.append('maungbandung')
 						pwv.append('persib123')
 						pwv.append('persib1933')
 						pwv.append('persib bandung')
-						pwv.append('persib bandung1933')
-						pwv.append('persib bandung123')
 						pwv.append('persibbandung')
-						pwv.append('persibbandung1933')
-						pwv.append('persibbandung123')
 				if 'ya' in pwt:
 					for xpwn in pwn:
 						pwv.append(xpwn)
