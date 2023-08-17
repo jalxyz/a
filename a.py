@@ -155,15 +155,15 @@ def banner():
       \_/       \/         \/        \/                                        ''')
                   
 def banlog():
-	cetak(panel(f'''\t{h}[bold green]
-'##:::'##::'#######::'########:'########:'##:::::::::::'######::'##::::'##::::'###::::'##::: ##:
- ##::'##::'##.... ##:..... ##:: ##.....:: ##::::::::::'##... ##: ##:::: ##:::'## ##::: ###:: ##:
- ##:'##::: ##:::: ##::::: ##::: ##::::::: ##:::::::::: ##:::..:: ##:::: ##::'##:. ##:: ####: ##:
- #####:::: ##:::: ##:::: ##:::: ######::: ##:::::::::: ##::::::: #########:'##:::. ##: ## ## ##:
- ##. ##::: ##:::: ##::: ##::::: ##...:::: ##:::::::::: ##::::::: ##.... ##: #########: ##. ####:
- ##:. ##:: ##:::: ##:: ##:::::: ##::::::: ##:::::::::: ##::: ##: ##:::: ##: ##.... ##: ##:. ###:
- ##::. ##:. #######:: ########: ########: ########::::. ######:: ##:::: ##: ##:::: ##: ##::. ##:
-..::::..:::.......:::........::........::........::::::......:::..:::::..::..:::::..::..::::..::
+	cetak(panel(f'''\t{h}[bold white]
+'##:::'##::'#######::'########:'########:'##:::::::
+ ##::'##::'##.... ##:..... ##:: ##.....:: ##:::::::
+ ##:'##::: ##:::: ##::::: ##::: ##::::::: ##:::::::
+ #####:::: ##:::: ##:::: ##:::: ######::: ##:::::::
+ ##. ##::: ##:::: ##::: ##::::: ##...:::: ##:::::::
+ ##:. ##:: ##:::: ##:: ##:::::: ##::::::: ##:::::::
+ ##::. ##:. #######:: ########: ########: ########:
+..::::..:::.......:::........::........::........::
 
 ⠀⠀⠀⠀⠀{m}                                             ''',width=90,title=f"[bold white]• [/][bold green]𝗪𝗘𝗟𝗖𝗢𝗠𝗘[/][bold white] •[/]",style=f"bold white"))
 #--------------------[ BAGIAN-MASUK ]--------------#
@@ -554,28 +554,39 @@ AGAR TERHINDAR DARI SPAM IP
 					if len(frs)<3:
 						pass
 					else:
-						pwv.append('persibandung')
 						pwv.append('bandung123')
-						pwv.append('bandung123456')
-						pwv.append('suamiku')
-						pwv.append('19juli')
+						pwv.append('sindangkerta')
+						pwv.append('sindangkerta123')
+						pwv.append('cimahi')
+						pwv.append('cimahi123')
+						pwv.append('soreang')
+						pwv.append('soreang123')
+						pwv.append('cililin')
+						pwv.append('cililin123')
 						pwv.append('persib123')
 						pwv.append('persib1933')
 						pwv.append('persib bandung')
 						pwv.append('persibbandung')
+						pwv.append('persibandung')
 				else:
 					if len(frs)<3:
 						pwv.append(nmf)
 					else:
-						pwv.append('persibandung')
 						pwv.append('bandung123')
-						pwv.append('bandung123456')
-						pwv.append('suamiku123')
-						pwv.append('19juli')
+						pwv.append('sindangkerta')
+						pwv.append('sindangkerta123')
+						pwv.append('cimahi')
+						pwv.append('cimahi123')
+						pwv.append('soreang')
+						pwv.append('soreang123')
+						pwv.append('cililin')
+						pwv.append('cililin123')
 						pwv.append('persib123')
 						pwv.append('persib1933')
 						pwv.append('persib bandung')
 						pwv.append('persibbandung')
+						pwv.append('persibandung')
+
 				if 'ya' in pwt:
 					for xpwn in pwn:
 						pwv.append(xpwn)
