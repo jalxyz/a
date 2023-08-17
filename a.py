@@ -156,7 +156,7 @@ def banner():
                   
 def banlog():
 	cetak(panel(f'''\t{h}[bold white]
-'##:::'##::'#######::'########:'########:'##:::::::
+'##:::'##::'#######::'########:'########:'##:::::::   
  ##::'##::'##.... ##:..... ##:: ##.....:: ##:::::::
  ##:'##::: ##:::: ##::::: ##::: ##::::::: ##:::::::
  #####:::: ##:::: ##:::: ##:::: ######::: ##:::::::
@@ -164,7 +164,7 @@ def banlog():
  ##:. ##:: ##:::: ##:: ##:::::: ##::::::: ##:::::::
  ##::. ##:. #######:: ########: ########: ########:
 ..::::..:::.......:::........::........::........::
-
+   
 ⠀⠀⠀⠀⠀{m}                                             ''',width=90,title=f"[bold white]• [/][bold green]𝗪𝗘𝗟𝗖𝗢𝗠𝗘[/][bold white] •[/]",style=f"bold white"))
 #--------------------[ BAGIAN-MASUK ]--------------#
 def brayenlogin():
@@ -190,7 +190,7 @@ def brayenmenu():
         os.system('clear')
         banlog()
         ses = requests.Session()
-        cetak(panel(f'''\t {xxx}©©© SARAN EKSTESION : {h}COOKIEDOUGH {xxx}©©©            ''',width=90,title=f"[bold white]• [/][bold green]LOGIN COOKIES [/][bold white] •[/]",style=f"bold white"))
+        cetak(panel(f'''\t GUNAKAN SEWAJARNYA TETAP TERIMA APA HASILNYA''',width=90,title=f"[bold white]• [/][bold white]⚠ NOTE ⚠ [/][bold white] •[/]",style=f"bold white"))
         print(f' ')
         your_cookies=input(f'[•] COOKIES :{xxx}{hijo} ')
         with requests.Session() as r:
