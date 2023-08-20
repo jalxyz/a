@@ -554,33 +554,35 @@ AGAR TERHINDAR DARI SPAM IP
 					if len(frs)<3:
 						pass
 					else:
-						pwv.append(nmf+' cantik')
-						pwv.append(nmf+' cantik123')
-						pwv.append(nmf+'cantik')
-						pwv.append(nmf+'cantik123')
-						pwv.append(nmf+' geulis')
-						pwv.append(nmf+' geulis123')
-						pwv.append(nmf+'geulis')
-						pwv.append(nmf+'geulis123')
-						pwv.append(nmf+' imut')
-						pwv.append(nmf+'123@')
-						pwv.append(nmf)
-
+						pwv.append('bandung123')
+						pwv.append('bandung1933')
+						pwv.append('Bandung123')
+						pwv.append('Bandung1933')
+						pwv.append('persib123')
+						pwv.append('persib1933')
+						pwv.append('Persib123')
+						pwv.append('Persib1933')
+						pwv.append('persibbandung')
+						pwv.append('Persibbandung')
+						pwv.append('persib bandung')
+						pwv.append('Persib Bandung')
+				
 				else:
 					if len(frs)<3:
 						pwv.append(nmf)
 					else:
-						pwv.append(nmf+' cantik')
-						pwv.append(nmf+' cantik123')
-						pwv.append(nmf+'cantik')
-						pwv.append(nmf+'cantik123')
-						pwv.append(nmf+' geulis')
-						pwv.append(nmf+' geulis123')
-						pwv.append(nmf+'geulis')
-						pwv.append(nmf+'geulis123')
-						pwv.append(nmf+' imut')
-						pwv.append(nmf+'123@')
-						pwv.append(nmf)
+						pwv.append('bandung123')
+						pwv.append('bandung1933')
+						pwv.append('Bandung123')
+						pwv.append('Bandung1933')
+						pwv.append('persib123')
+						pwv.append('persib1933')
+						pwv.append('Persib123')
+						pwv.append('Persib1933')
+						pwv.append('persibbandung')
+						pwv.append('Persibbandung')
+						pwv.append('persib bandung')
+						pwv.append('Persib Bandung')
 
 				if 'ya' in pwt:
 					for xpwn in pwn:
